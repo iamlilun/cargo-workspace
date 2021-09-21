@@ -1,0 +1,10 @@
+## 這裡不會有[pacakge][dependencies]..只有有個[workspace]來配置全局項目
+
+[workspace]
+
+#添加成員都要手動加在這
+members = [
+    "adder",
+    "add_one",
+    "add-two"
+]
